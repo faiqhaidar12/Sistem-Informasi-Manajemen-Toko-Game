@@ -9,7 +9,7 @@ const Sidebar = () => {
         data-drawer-toggle="default-sidebar"
         aria-controls="default-sidebar"
         type="button"
-        className="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className=" inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -38,7 +38,7 @@ const Sidebar = () => {
             <hr className="h-px my-1 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <li>
               <NavLink
-                href="#"
+                to={"/dashboard"}
                 className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg
@@ -55,7 +55,7 @@ const Sidebar = () => {
             </li>
             <li>
               <NavLink
-                href="#"
+                to={"/produk"}
                 className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg
@@ -74,7 +74,7 @@ const Sidebar = () => {
             </li>
             <li>
               <NavLink
-                href="#"
+                to={"/akun"}
                 className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg
@@ -91,7 +91,7 @@ const Sidebar = () => {
             </li>
             <li>
               <NavLink
-                href="#"
+                to={"/users"}
                 className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg
