@@ -33,6 +33,9 @@ const AkunList = () => {
                 Created By
               </th>
               <th scope="col" className="px-6 py-3">
+                Status
+              </th>
+              <th scope="col" className="px-6 py-3">
                 Action
               </th>
             </tr>
@@ -66,6 +69,7 @@ const AkunList = () => {
                 </button>
               </td>
               <td className="px-6 py-4 ">Admin</td>
+              <td className="px-6 py-4">Kosong</td>
               <td className="px-6 py-4 ">Edit</td>
             </tr>
           </tbody>
